@@ -1,7 +1,4 @@
 # Paralel Konveks Poligon Kontrolü
-
-Bu proje, paralel programlama dersi için hazırlanmıştır. Projede verilen x-y koordinatlarından oluşan bir poligonun konveks olup olmadığı kontrol edilmektedir.
-
 Program Java diliyle yazılmıştır. Aynı problem önce seri olarak çözülmüş, daha sonra Java `Thread` yapısı kullanılarak paralel hale getirilmiştir. Amaç, seri ve paralel çalışma sürelerini karşılaştırmak ve hızlanma katsayısını görmektir.
 
 ## Projenin Konusu
@@ -39,21 +36,6 @@ Hızlanma = Seri Süre / Paralel Süre
 
 Bu değer 1'den büyükse paralel çözüm seri çözüme göre daha hızlı çalışmıştır.
 
-## Dosya Yapısı
-
-```text
-src/
- └── ParalelKonveksKontrol.java
-
-docs/
- ├── Paralel_Konveks_Kontrol_Raporu_dogal.docx
- └── prll_sunum_konusma_sirali_kodlu.pptx
-
-screenshots/
- ├── 2_thread_sonuc.png
- ├── 4_thread_sonuc.png
- └── 8_thread_sonuc.png
-```
 
 ## Programı Çalıştırma
 
